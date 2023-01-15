@@ -9,6 +9,9 @@ import ControllingWhenReactCreatesAnimation from "./components/6_ControllingWhen
 import ReactingToChangeInState from "./components/7_ReactingToChangesInState";
 import PassingDownATimelineProp from "./components/8_PassingDownATimelineProp";
 import PassingDownACallback from "./components/9_PassingDownACallback";
+import ReactContext from "./components/10_ReactContext";
+import ImperativeCommunication from "./components/11_ImperativeComunication";
+import ReuseableAnimations from "./components/12_ReuseableAnimations";
 
 function App() {
   return (
@@ -36,6 +39,12 @@ function App() {
       <PassingDownATimelineProp />
       <div className="spacer" />
       <PassingDownACallback />
+      <div className="spacer" />
+      <ReactContext />
+      <div className="spacer" />
+      <ImperativeCommunication />
+      <div className="spacer" />
+      <ReuseableAnimations />
     </section>
   );
 }
