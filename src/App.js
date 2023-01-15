@@ -12,6 +12,9 @@ import PassingDownACallback from "./components/9_PassingDownACallback";
 import ReactContext from "./components/10_ReactContext";
 import ImperativeCommunication from "./components/11_ImperativeComunication";
 import ReuseableAnimations from "./components/12_ReuseableAnimations";
+import ExitAnimations from "./components/14_ExitAnimations";
+import ExitAnimationsFromArray from "./components/14_ExitAnimationsFromArray";
+import ExitAnimationsUsingFlip from "./components/14_ExitAnimationsUsingFlip";
 
 function App() {
   return (
@@ -46,6 +49,11 @@ function App() {
       <div className="spacer" />
       <ReuseableAnimations />
       <div className="spacer" />
+      <ExitAnimations />
+      <div className="spacer" />
+      <ExitAnimationsFromArray />
+      <div className="spacer" />
+      <ExitAnimationsUsingFlip />
     </section>
   );
 }
