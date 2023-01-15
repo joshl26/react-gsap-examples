@@ -1,5 +1,5 @@
 import { gsap } from "gsap";
-import classes from "./AnimatingOnInteraction.module.css";
+import classes from "./1_AnimatingOnInteraction.module.css";
 
 function AnimatingOnInteraction() {
   const onEnter = ({ currentTarget }) => {
@@ -11,7 +11,7 @@ function AnimatingOnInteraction() {
   };
 
   return (
-    <div className={`${classes.app} ${classes.flex_row}`}>
+    <div className="App">
       <h2>Animating on Interaction</h2>
       <div
         className={classes.box}
