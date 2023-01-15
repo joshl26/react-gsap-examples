@@ -14,7 +14,7 @@ const FadeIn = forwardRef(({ children, stagger = 0, x = 0 }, ref) => {
       });
     });
     return () => ctx.revert();
-  }, []);
+  }, [stagger, x]);
 
   useEffect(() => {
     // forward the animation instance

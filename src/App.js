@@ -45,6 +45,7 @@ function App() {
       <ImperativeCommunication />
       <div className="spacer" />
       <ReuseableAnimations />
+      <div className="spacer" />
     </section>
   );
 }

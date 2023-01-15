@@ -17,7 +17,7 @@ function Box({ children, id }) {
 
   useEffect(() => {
     return () => ctx.revert();
-  }, []);
+  }, [ctx]);
 
   useLayoutEffect(() => {
     ctx.add(() => {

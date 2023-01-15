@@ -1,10 +1,4 @@
-import {
-  useEffect,
-  useRef,
-  useState,
-  useImperativeHandle,
-  forwardRef,
-} from "react";
+import { useEffect, useRef, useImperativeHandle, forwardRef } from "react";
 
 import gsap from "gsap";
 
