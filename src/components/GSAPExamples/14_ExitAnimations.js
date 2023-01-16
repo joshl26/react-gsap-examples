@@ -13,7 +13,7 @@ const ExitAnimations = () => {
       });
     });
     return () => ctx.revert();
-  }, []);
+  }, [ctx]);
 
   return (
     <div className="app" ref={app}>

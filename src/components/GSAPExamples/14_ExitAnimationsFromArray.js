@@ -21,7 +21,7 @@ const ExitAnimationsFromArray = () => {
       });
     });
     return () => ctx.revert();
-  }, []);
+  }, [ctx]);
 
   return (
     <div className="app boxes">
