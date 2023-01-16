@@ -1,9 +1,15 @@
 import "./App.css";
 
-import GSAPExamples from "./components/GSAPExamples/GSAPExamples";
+// import GSAPExamples from "./components/GSAPExamples/GSAPExamples";
+import ScrollTriggerProgressBar from "./components/ScrollTriggerProgressBar/ScrollTriggerProgressBar";
 
 function App() {
-  return <GSAPExamples />;
+  return (
+    <>
+      {/* <GSAPExamples /> */}
+      <ScrollTriggerProgressBar />
+    </>
+  );
 }
 
 export default App;
